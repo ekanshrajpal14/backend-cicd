@@ -27,7 +27,7 @@ jobs:
             export NVM_DIR="$HOME/.nvm"
             source "$NVM_DIR/nvm.sh"
             nvm use 22
-            cd /var/www/html/backend || exit 1
+            cd /var/www/html/backend-cicd || exit 1
             git pull origin main
             fi
             npm install
